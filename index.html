@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/089b0389cf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#Complete Note">Complete Note</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Smruti Ranjan</span><br> & i am passionate</h1>
+            </div>
+            <span id="element"></span>
+        </div>
+    </div>
+    <!-- -----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A proactive IT enthusiast, bringing confidence and commitment to a reputable organization. Enthusiastic about embracing new challenges, fostering personal growth, and contributing to a stable and innovative work environment.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Achivements')">Achivements</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Skills</span><br>C,C++,JAVA,PYTHON,MYSQL.</li>
+                            <li><span>Web Development</span><br>HTML,CSS,JAVASCRIPT.</li>
+                            <li><span>Course Work</span><br>Operating System, Computer Network, Database Management System.<br>Cyber Security & Privacy, Internet of Things 4.0, Management Information System.<br>Software Engineering.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Achivements">
+                        <ul>
+                            
+                            <li><span>2021-2022</span><br>I have successfully completed the internship at Whizzo Infotech Pvt. Ltd. In C programming.. from dt- 22th.Oct.2021 to. 6th Jan 2022</li>
+                            <li><span>2023</span><br>I have successfully completed the "JavaScript" course offered by Great Learning Academy..</li>
+                            <li><span>2023</span><br>I have successfully completed the "Java Programming" course offered by Great Learning Academy.</li>
+                            <li><span>2023</span><br>I have successfully completed the "Front End Development - CSS" course offered by Great Learning Academy.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>MCA from College of Engineering. Bhubaneswar.</li>
+                            <li><span>2021</span><br>BCA from Trident Academy Of Creative Technology Bhubaneswar.</li>
+                            <li><span>2018</span><br>+2Sc. from S.A.N. JR. College of EDN. Kurtanga.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------services------------------------ -->
+    <div id="Project">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design a College Website.</h2>
+                    <p><li>Designed and developed a responsive college website using HTML, CSS, and JavaScript,</li> <li>focusing on user experience, intuitive interface, and enhanced functionality for optimal browsing across devices.
+                        <li>Improved user experience leading to higher engagement. Streamlined communication between students, faculty, and administration. Enhanced recruitment efforts through an efficient admission process.</li>
+                        <li>Increased visibility and online presence.</li>
+                        </p>
+                    <a href="https://github.com/Smruti7537/college-website">Learn more</a>
+                </div>
+               
+            </div>
+
+        </div>
+    </div>
+    <!-- ----------Note---------------------- -->
+    <div id="Complete Note">
+
+        <div class="container">
+            <h1 class="sub-title">Complete Note</h1>
+            <div class="work-list">
+                <div class="work">
+                  <img src="images/java-1.png">
+                    <div class="layer">
+                        <h3>JAVA</h3>
+                        <p>This is the "JAVA" note.</p>
+                        <a href="https://drive.google.com/file/d/12ZQMhKW2skK8inrIpRuijRiN-Dju_Ndp/view?usp=drivesdk"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/htmlmm.png" alt="">
+                    <div class="layer">
+                        <h3>HTML</h3>
+                        <p>This is the "HTML" note. </p>
+                        <a href="https://drive.google.com/file/d/13Rhwd9_-IkYPeEgz4spYIJLz2oc7d42c/view?usp=drivesdk"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/database.png" >
+                    <div class="layer">
+                        <h3>DBMS</h3>
+                        <p>This is the "DBMS" note. </p>
+                        <a href="https://docs.google.com/presentation/d/13VXJBg_yNWjlPXi-0YLAvFYIqECTw5vv/edit?usp=drivesdk&ouid=105752364548279229204&rtpof=true&sd=true"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="https://www.w3schools.com/" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------contact--------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>smrutimalla753@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8249468487,8658847843</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/smrutiranjan.malla.52?mibextid=b06tZ0"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Smrutimalla753?t=hBLVi5dp3lByis5uUXRFCg&s=09"><i
+                                class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/___big_secret_smruti___?igshid=MzNlNGNkZWQ4Mg=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/smruti-ranjan-malla-219198233"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/12Qv9sj2B-H4FDbL10mJZZIh-2Oq1nLu0/view?usp=drivesdk"
+                        download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/maygeveg" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>contact me &copy Smruti.&copy smrutimalla753@gmail.com. <i class="fa-solid fa-heart"></i> 8249468487</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+
+    </script>
+
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer...', 'Web Designer...', 'Video Editor...', 'Android Developer...'],
+      typeSpeed: 50,
+    });
+  </script
+</body>
+
+</html>
